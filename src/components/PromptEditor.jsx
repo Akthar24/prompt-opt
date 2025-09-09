@@ -15,7 +15,7 @@ const PromptEditor = ({ selectedEntry, onHistoryUpdate, onCompare }) => {
   const [selectedTemplate, setSelectedTemplate] = useState('')
 
   // 🔑 Hardcoded API Key (from your working HTML version)
-  const apiKey = "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";
+  const apiKey = API_KEY;
 
   // Load templates and set initial prompt if entry is selected
   useEffect(() => {
